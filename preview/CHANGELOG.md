@@ -1,5 +1,13 @@
 # @tabler/preview
 
+## 1.7.0
+
+### Patch Changes
+
+- 4f31a3b: Added the `weekNumbers` option to `Datepicker` to show the week number in front of each row.
+- 1b4a219: Added `.icon-inline` to icons that sit in a line of text in the demo cards, preview pages and docs examples.
+- 7e447a2: Updated the promo top banner to load only on production deploys, not on branch previews.
+
 ## 1.6.1
 
 ### Patch Changes
