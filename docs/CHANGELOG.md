@@ -1,5 +1,17 @@
 # @tabler/docs
 
+## 1.7.0
+
+### Patch Changes
+
+- 4f31a3b: Added the `weekNumbers` option to `Datepicker` to show the week number in front of each row.
+- ad8c26a: Added `--tblr-form-check-*` and `--tblr-form-switch-*` variables, with shared `--tblr-control-checked-bg` and disabled tokens on `:root`.
+- ad8c26a: Added `--tblr-control-*` variables to `.form-control` and `.form-select`; sizes and the file button now follow them.
+- ad8c26a: Added the Forms → CSS variables page: the control scale, state colors and every `--tblr-control-*`, add-on, floating, range, check and switch token.
+- 1b4a219: Added `.icon-inline` to icons that sit in a line of text in the demo cards, preview pages and docs examples.
+- ad8c26a: Added `--tblr-input-group-addon-*`, `--tblr-form-floating-*` and `--tblr-range-*` variables to input groups, floating labels and range inputs.
+- 7e447a2: Updated the promo top banner to load only on production deploys, not on branch previews.
+
 ## 1.6.1
 
 ### Patch Changes

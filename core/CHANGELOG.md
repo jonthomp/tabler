@@ -1,5 +1,16 @@
 # @tabler/core
 
+## 1.7.0
+
+### Minor Changes
+
+- 4f31a3b: Added the `weekNumbers` option to `Datepicker` to show the week number in front of each row.
+- ad8c26a: Added `--tblr-form-check-*` and `--tblr-form-switch-*` variables, with shared `--tblr-control-checked-bg` and disabled tokens on `:root`.
+- ad8c26a: Added `--tblr-control-*` variables to `.form-control` and `.form-select`; sizes and the file button now follow them.
+- ad8c26a: Updated icon addons, select groups, `.col-form-label`, validation icons, OTP and Tom Select to read the `--tblr-control-*` and `--tblr-btn-input-*` variables.
+- ad8c26a: Fixed `.form-select-sm` and `.form-select-lg` height to match `.form-control-sm` and `.form-control-lg`. Small buttons, inputs and selects are now 32px tall instead of 28px. Fixed the font size of a small Tom Select to match a small native select.
+- ad8c26a: Added `--tblr-input-group-addon-*`, `--tblr-form-floating-*` and `--tblr-range-*` variables to input groups, floating labels and range inputs.
+
 ## 1.6.1
 
 ### Patch Changes
