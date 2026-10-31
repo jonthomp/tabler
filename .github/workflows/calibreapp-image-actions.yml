@@ -26,6 +26,6 @@ jobs:
 
       - name: Compress Images
         # pinned to a commit: this job holds a write token
-        uses: calibreapp/image-actions@26d5b54006db4da7a1b29903f33404a6f77b58cf # main, 2026-09-02
+        uses: calibreapp/image-actions@cfe6ba91a2f0e9046d44e2088d002378daeb4a9c # main, 2026-09-02
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
